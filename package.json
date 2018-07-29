@@ -1,6 +1,6 @@
 {
   "name": "hadnpm",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/helloMsg.min.js",
   "scripts": {
@@ -8,7 +8,12 @@
     "start": "webpack-dev-server --hot --inline",
     "build": "webpack --display-error-details --config webpack.config.js"
   },
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/hamuPP/npmStudy.git"
+	},
   "author": "",
+  "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
